@@ -1,0 +1,213 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Poppins:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Montserrat:wght@300;500;700&family=Poppins:wght@700;800&display=swap');
+
+/* css style */
+body {
+    font-size: 16px/28px;
+    font-family: 'Montserrat', sans-serif;
+	background-image: url(img/bghd4.jpg);
+	box-sizing: content-box;
+}
+
+/* bagian container */
+.container {
+    width: 960px;
+    margin: auto;
+	background-image: url(img/bghd.jpg);
+}
+
+/* bagina hero */
+.header {
+	padding: 20px;
+	background-color: #844E32;
+}
+.header .judul {
+	font-size: 30px;	
+	color: aliceblue;
+	font-weight: bolder;
+}
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+.header a {
+	text-decoration: none;
+	color: #6C7B69;
+	padding: 5px;
+	font-weight: bold;
+}
+.header a:hover {
+	color: aliceblue;
+	border-bottom: 3px solid;
+}
+
+/* bagian hero */
+.hero {
+	height: 320px;
+	background-image: url(img/bg1.png);
+	background-size: cover;
+}
+.hero .about {
+	width: 350px;
+	padding: 50px;
+	padding-top: 80px;
+	color: #d6cfcf;
+}
+.hero .about h1 {
+	font-size: 25px;
+	font-weight: bold;
+}
+.hero .about span {
+	font-size: 30px;
+	display: block;
+	margin-top: 5px;
+}
+.hero .about p {
+	color: rgb(74, 6, 6);
+}
+
+/* bagian main */
+.main {
+	width: 600px;
+	padding: 20px;
+	font-family: arial;
+	box-sizing: border-box;
+	float: left;
+}
+.main .blog1 {
+	width: 500px;
+	background-color: rgb(188, 194, 194);
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.main .blog1 h1 {
+	font-size: 28px;
+	font-weight: 600;
+	font-family: 'Alegreya';
+	padding-bottom: 4px;
+	color: #4b2117;
+}
+.main .blog1 h3 {
+	font-size: 10px;
+	text-decoration: none;
+	color: #545654;
+	margin-bottom: 10px;
+}
+.main .blog1 a {
+	text-decoration: none;
+	color: #4b2117;
+}
+.main .blog1 .isi {
+	display: flex;
+}
+.main .blog1 p {
+	margin-left: 10px;
+	font-size: 12px;
+	font-family: 'Alegreya';
+	color: #5a6858;
+}
+
+/* bagian sidebar */
+.sidebar {
+	padding: 20px;
+	width: 360px;
+	float: right;
+	box-sizing: border-box;
+	margin-top: 20px;
+}
+.sidebar .penulis {
+	padding: 10px;
+	border-radius: 10px;
+	background-color: rgb(188, 194, 194);
+	
+}
+.sidebar .penulis h3 {
+	font-weight: bold;
+}
+.sidebar .penulis img {
+	width: 100px;
+	margin-top: 5px;
+	float: left;
+	margin: 10px;
+}
+.sidebar .penulis p {
+	font-size: 12px;
+	margin-top: 8px;
+}
+
+/* bagian footer */
+.footer {
+	background-color: #844E32;
+	padding: 10px;
+}
+.footer .copy {
+	color: #d6cfcf;
+	font-size: 12px;
+	text-align: center;
+}
+
+/* clear fix */
+
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ 
+
+
+
+
+
